@@ -1,9 +1,15 @@
-Ansible is one of the most famous Configuration Management Tool.Ansible works without installing any agent on the remote node which need to be configured i.e it is a agentless tool.It requires only SSHD daemon to be running on the remote node.
+==> Introduction
+
+Ansible is one of the most famous Configuration Management Tool.
+Ansible works without installing any agent on the remote node which need to be configured,
+i.e it is a agentless tool.It requires only SSHD daemon to be running on the remote node.
 
 Ansible is capable of running the regular Shell Command and Scripts on remote node.This later can be converted into Idempotent Playbooks.
 
 Idempotence is the ablity to run the operation which gives same result multiple times.
 
-Ansible uses an inventory file to communicate with the servers.Inventory file contains the Domain name or IP Addresses or Groups of servers which need to be communicated.The location of the file is '/etc/ansible/hosts'
+Ansible uses an inventory file to communicate with the servers.Inventory file contains the Domain name or IP Addresses or Groups
+of servers which need to be communicated.The location of the file is '/etc/ansible/hosts'
 
-Setup Ansible Controller and Ansible Nodes
+==> Setup Ansible Controller and Ansible Nodes
+
